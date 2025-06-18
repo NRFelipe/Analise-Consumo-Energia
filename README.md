@@ -23,16 +23,13 @@ analise-consumo-energia-sustentavel/
 ├── dados/                  # Conjunto de dados brutos e tratados
 ├── notebooks/              # Notebooks Jupyter com análises
 ├── src/                    # Scripts Python para limpeza e preparação dos dados
-├── dashboards/             # Painéis interativos (Power BI ou Tableau)
+├── dashboards/             # Painéis interativos (Tableau)
 ├── relatorio_final.pdf     # Relatório com insights principais
 └── README.md               # Documentação do projeto
 ```
 
 ## 🔎 Fontes de Dados
 - [ANEEL - Agência Nacional de Energia Elétrica](https://www.aneel.gov.br/)
-- [ONS - Operador Nacional do Sistema Elétrico](https://www.ons.org.br/)
-- [IBGE - Instituto Brasileiro de Geografia e Estatística](https://www.ibge.gov.br/)
-- [Dados Abertos - Governo Federal](https://dados.gov.br/)
 
 ## 🚀 Etapas do Projeto
 1. Coleta de dados
@@ -61,7 +58,6 @@ Nas próximas etapas, carregaremos os dados reais e iniciaremos a exploração n
 # Bibliotecas iniciais
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Configuração dos gráficos
 sns.set(style="whitegrid")
@@ -76,7 +72,6 @@ sns.set(style="whitegrid")
 
 # Em breve: análise por tipo de energia, consumo per capita, evolução temporal, etc.
 
-# Exemplo de gráfico (remoção quando for usar dados reais)
 # plt.figure(figsize=(10,6))
 # sns.lineplot(data=df, x='Ano', y='Consumo_MWh', hue='Fonte')
 # plt.title('Consumo de Energia por Tipo de Fonte ao longo dos anos')
