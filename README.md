@@ -54,4 +54,11 @@ Este projeto analisa a geração de energia elétrica no Brasil utilizando dados
 git clone https://github.com/NRFelipe/Analise-Consumo-Energia.git
 
 2. Acessar o notebook
-Abra o arquivo notebooks/analise-exploratoria.ipynb e execute as células no Jupyter para gerar os gráficos locais.
+Abra o arquivo notebooks/analise-energias.ipynb e execute as células no Jupyter para gerar os gráficos locais.
+
+📈 Dashboard Interativo
+Acesse o painel completo no Tableau Public:
+https://public.tableau.com/app/profile/felipe.rodriguez3713/viz/GeraodeEnergianoBrasilAnliseporEstadoFonteeAno/Painel1
+
+📄 Licença
+Projeto de portfólio de análise de dados — dados utilizados são públicos e disponibilizados pela ANEEL via SIGA.
