@@ -51,4 +51,7 @@ Este projeto analisa a geração de energia elétrica no Brasil utilizando dados
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/NRFelipe/geracao-energia-brasil.git
+git clone https://github.com/NRFelipe/Analise-Consumo-Energia.git
+
+2. Acessar o notebook
+Abra o arquivo notebooks/analise-exploratoria.ipynb e execute as células no Jupyter para gerar os gráficos locais.
