@@ -36,13 +36,13 @@ Este projeto analisa a geração de energia elétrica no Brasil utilizando dados
 
 📦 geracao-energia-brasil
 ├── dados/
-│ └── usinas_tratadas.csv # Dados tratados (pronto para uso no Tableau)
+│ └── usinas_tratadas (1).csv # Dados tratados (pronto para uso no Tableau)
 ├── notebooks/
-│ └── analise-exploratoria.ipynb # Notebook com limpeza e gráficos em matplotlib
+│ └── analise-energias.ipynb # Notebook com limpeza e gráficos em matplotlib
 ├── dashboard/
-│ └── link-dashboard.txt # Link para o painel no Tableau Public
+│ └── [link-dashboard.txt](https://public.tableau.com/app/profile/felipe.rodriguez3713/viz/GeraodeEnergianoBrasilAnliseporEstadoFonteeAno/Painel1) # Link para o painel no Tableau Public
 ├── imagens/
-│ └── preview.png # Captura do dashboard
+│ └── dashboard_print.png # Captura do dashboard
 └── README.md
 
 ---
