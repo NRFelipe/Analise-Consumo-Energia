@@ -1,78 +1,54 @@
-# Analise-Consumo-Energia
-Analisar a evolução do consumo de energia elétrica por tipo de fonte
-# README
+# ⚡ Geração de Energia no Brasil — Análise por Estado, Fonte e Ano
 
-## 📊 Visão Geral
-Este projeto tem como objetivo explorar dados públicos sobre o consumo de energia no Brasil, com foco na transição energética rumo a fontes renováveis. Utilizamos Python, bibliotecas de análise de dados e ferramentas de visualização para gerar insights relevantes sobre sustentabilidade no setor elétrico brasileiro.
+Este projeto analisa a geração de energia elétrica no Brasil utilizando dados públicos da ANEEL (SIGA). O foco está em compreender a distribuição por tipo de fonte (renovável x não renovável), a evolução da entrada de usinas em operação e os estados com maior potência instalada.
 
-## 🎯 Objetivos do Projeto
-- Analisar a evolução do consumo de energia por fonte (hidrelétrica, solar, eólica, térmica etc).
-- Comparar os estados brasileiros quanto ao uso de fontes renováveis.
-- Identificar tendências de crescimento de energias limpas.
-- Criar dashboards interativos para visualização dos dados.
+---
 
-## 🧰 Tecnologias Utilizadas
-- Python (Pandas, Seaborn, Matplotlib)
-- Jupyter Notebook
-- Power BI ou Tableau (visualização interativa)
+## 📌 Objetivos
+
+- Identificar os estados com maior geração de energia
+- Comparar fontes renováveis e não renováveis
+- Analisar o crescimento de usinas por tipo e ao longo do tempo
+- Criar um painel interativo com Tableau Public
+
+---
+
+## 📊 Principais Insights
+
+- **UHEs** (Hidrelétricas) lideram em potência instalada
+- **UFVs** (Usinas Fotovoltaicas) dominam em número de empreendimentos
+- **SP, MG e PA** são os estados com maior geração total
+- Crescimento acentuado de usinas **solares** a partir de 2017
+- Ponto máximo de novas usinas em **2022**
+
+---
+
+## 🛠️ Ferramentas utilizadas
+
+- Python: `pandas`, `matplotlib`
+- Tableau Public: dashboard interativo
+- JupyterLite
 - Git e GitHub
 
-## 📁 Estrutura de Pastas
-```
-analise-consumo-energia-sustentavel/
-├── dados/                  # Conjunto de dados brutos e tratados
-├── notebooks/              # Notebooks Jupyter com análises
-├── src/                    # Scripts Python para limpeza e preparação dos dados
-├── dashboards/             # Painéis interativos (Tableau)
-├── relatorio_final.pdf     # Relatório com insights principais
-└── README.md               # Documentação do projeto
-```
+---
 
-## 🔎 Fontes de Dados
-- [ANEEL - Agência Nacional de Energia Elétrica](https://www.aneel.gov.br/)
+## 📁 Estrutura do Projeto
 
-## 🚀 Etapas do Projeto
-1. Coleta de dados
-2. Limpeza e tratamento
-3. Análise exploratória (EDA)
-4. Visualização interativa (Power BI/Tableau)
-5. Conclusões e recomendações
-
-## 👨‍💻 Autor
-Felipe Naliato – Projeto de portfólio para transição de carreira para Análise de Dados.
+📦 geracao-energia-brasil
+├── dados/
+│ └── usinas_tratadas.csv # Dados tratados (pronto para uso no Tableau)
+├── notebooks/
+│ └── analise-exploratoria.ipynb # Notebook com limpeza e gráficos em matplotlib
+├── dashboard/
+│ └── link-dashboard.txt # Link para o painel no Tableau Public
+├── imagens/
+│ └── preview.png # Captura do dashboard
+└── README.md
 
 ---
 
-## ⚡ Em andamento...
-Nas próximas etapas, carregaremos os dados reais e iniciaremos a exploração no notebook `exploracao_dados.ipynb`.
+## 🚀 Executando o projeto
 
----
-
-# Etapas do Projeto:
-# 1. Coleta de dados públicos (ANEEL, ONS, IBGE)
-# 2. Limpeza e tratamento dos dados
-# 3. Análise exploratória e visualização (Pandas, Seaborn)
-# 4. Painel interativo com Power BI ou Tableau (fora do notebook)
-# 5. Relatório final e README explicativo
-
-# Bibliotecas iniciais
-import pandas as pd
-import matplotlib.pyplot as plt
-
-# Configuração dos gráficos
-sns.set(style="whitegrid")
-
-# Placeholder para carregar os dados (ex: consumo_energia.csv)
-# df = pd.read_csv('dados/consumo_energia.csv')
-
-# Exibição inicial do dataset (exemplo)
-# print(df.head())
-
-# Aqui faremos: tratamento de dados, conversões de tipos, análises por estado, por fonte, por ano...
-
-# Em breve: análise por tipo de energia, consumo per capita, evolução temporal, etc.
-
-# plt.figure(figsize=(10,6))
-# sns.lineplot(data=df, x='Ano', y='Consumo_MWh', hue='Fonte')
-# plt.title('Consumo de Energia por Tipo de Fonte ao longo dos anos')
-# plt.show()
+### 1. Clonar o repositório
+```bash
+git clone https://github.com/NRFelipe/geracao-energia-brasil.git
